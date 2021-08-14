@@ -1,5 +1,7 @@
 Observable/Subject
+
 UserService > activatedEmitter = new Subject<boolean>();
+  
 this.userService.activatedEmitter.next(true);
   
  app.component.ts
